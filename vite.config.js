@@ -6,5 +6,6 @@ export default defineConfig({
   root: './',       // Root di folder ini
   build: {
     outDir: 'dist', // Direktori output hasil build
+    emptyOutDir: true,
   },
 });
